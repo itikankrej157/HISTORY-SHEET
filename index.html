@@ -2,102 +2,107 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>History Sheet - ITI Kankrej</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-
-    
-        .sheet{
-               align-items: center;
-               border: 2px solid black;
-            
+        body {
+            padding: 20px;
+            font-size: 16px;
         }
-        .header{
-
-            text-align: center;
-            font-size:20px;
+        .table-container {
+            max-width: 900px;
+            margin: auto;
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
         }
-        .table{
-            height:350px;
-            width: 350px;
-            
-            font-size:xx-small;
+        h2, h4 {
             text-align: center;
         }
-    
-
+        .table th {
+            
+            
+            text-align: left;
+            align-content:center;
+        }
+        /* Make table scrollable on small screens */
+        .table-responsive {
+            overflow-x: auto;
+            display: block;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+                font-size: 14px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+            .table-container {
+                padding: 10px;
+            }
+            .table th, .table td {
+                font-size: 12px;
+                padding: 8px;
+                white-space: nowrap; /* Prevent text from breaking */
+            }
+        }
     </style>
 </head>
 <body>
-      
 
-
- 
-        <div class="header">
-    <h4>INDUSTRIAL TRAINING INSTUTE KANKREJ</h4>
-    <H5>HISTORY SHEET</H5>
-    <h6>(PROFORMA IAS PER PARA 75.1)</h6>
+<div class="container table-container">
+    <h2>INDUSTRIAL TRAINING INSTITUTE KANKREJ</h2>
+    <h4 class="text-center">HISTORY SHEET</h4>
+    <div class="table-responsive">
+        <table class="table table-bordered table-dark">
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <th>NAME OF THE INSTITUTE</th>
+                    <td>I.T.I KANKREJ</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <th>TRADE</th>
+                    <td>IT LAB</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <th>DESCRIPTION OF MACHINE</th>
+                    <td>ACER VERITON M-200 P 500</td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <th>NUMBER OF MACHINE</th>
+                    <td>ACER MONITOR,<br>ACER CPU,<br> ACER KEYBOARD & MOUSE</td>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <th>NAME OF SUPPLIER</th>
+                    <td>ACER INDIA PVT LTD<br>
+                        NO: 130th FLOOR, EMBASSY HEIGHTS<br>
+                        MARGATH ROAD, NEXT TO HOSMATE HOSPITAL<br>
+                        BAUGALLON-KARNATAKA-560025</td>
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <th>DATE OF INSTALLED/COMMISSIONED</th>
+                    <td>Not Provided</td>
+                </tr>
+                <tr>
+                    <th>7</th>
+                    <th>BRIEF DETAILS OF ACCESSORIES SUPPLIED/OBTAINED</th>
+                    <td>ACER VERITOLL M-200 P-500,<br> ACER AVUD RYZEN S-5600G,<br> 8 GB RAM,<br> WINDOWS 11 PRO,<br> ACER KEYBOARD & MOUSE</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </div>
 
-
-    <table align="center"  class="table table-responsive table-bordered border-secondary" >
-        
-        <tr>
-            <th class="number">1</th>
-            <th >NAME OF THE INSTITUTE</th>
-            <td>I.T.I KANKREJ</td>
-        </tr>
-
-        <tr>
-            <th  class="number">2</th>
-            <th>TRADE</th>
-            <td>IT LAB</td>
-            
-        </tr>
-
-        <tr>
-            <th  class="number">3</th>
-            <th>DESCRIPTION OF MACHINE</th>
-            <td>ACER VERITON M-200 P 500</td>
-        </tr>
-
-        <tr>
-            <th  class="number">4</th>
-            <th>NUMBER OF MACHINE</th>
-            <td>ACER MONITER <br> ACER CPU <br>ACER KEYBOARD & MOUSE</td>
-        </tr>
-
-        <tr>
-            <th  class="number">5</th>
-            <th>NAME OF SUPPLIER</th>
-            <td>ACER INDIA P.V.T LTD <br>   ADD: NO : 130 <sup>th</sup> FLOOR <BR>
-            EMBASSY HEIGHTS MARGATH ROOD <BR>NEXT TO HOSMATE HOSPITAL <br>BAUGALLON-KARNATAKA-560025 </td>
-        </tr>
-
-        <tr  class="number">
-            <th>6</th>
-            <th>DATE OF INSTALLED/COMMISSIONED</th>
-            <td></td>
-        </tr>
-
-        
-        <tr  class="number">
-            <th>7</th>
-            <th>BRIEF DETAILS OF ACCESSORIES SUPPLIED/OBNTAINED</th>
-            <td >
-                ACER VERTITOLL M-200 P-500 <br> ACER AVUD RYZEN S -5600G <br>     8 GB RAM <br>   WINDOW 11 PROTESSIOUR <br>  ACER KEYBOARD & MOUSE
-            </td>
-         
-        </tr>
-    </table>
-
-
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
